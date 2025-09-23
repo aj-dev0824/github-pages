@@ -651,6 +651,159 @@ body {
   }
 }
 
+/* Article-Specific Styles */
+.article-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: var(--spacing-8) var(--spacing-4);
+  background-color: var(--white);
+}
+
+.article-header {
+  margin-bottom: var(--spacing-8);
+}
+
+.article-title {
+  font-size: var(--font-size-4xl);
+  font-weight: 700;
+  color: var(--gray-900);
+  margin-bottom: var(--spacing-4);
+  line-height: 1.2;
+}
+
+.article-content {
+  line-height: 1.8;
+  color: var(--gray-700);
+}
+
+.article-content h2 {
+  font-size: var(--font-size-2xl);
+  font-weight: 600;
+  color: var(--gray-900);
+  margin: var(--spacing-8) 0 var(--spacing-4);
+}
+
+.article-content h3 {
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  color: var(--gray-900);
+  margin: var(--spacing-6) 0 var(--spacing-3);
+}
+
+.article-content p {
+  margin-bottom: var(--spacing-4);
+}
+
+.article-content ul,
+.article-content ol {
+  margin: var(--spacing-4) 0;
+  padding-left: var(--spacing-6);
+}
+
+.article-content li {
+  margin-bottom: var(--spacing-2);
+}
+
+/* CTA Box */
+.cta-box {
+  background-color: var(--gray-100);
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius-xl);
+  padding: var(--spacing-6);
+  margin: var(--spacing-6) 0;
+  text-align: center;
+}
+
+.cta-box h3 {
+  color: var(--gray-900);
+  margin-bottom: var(--spacing-3);
+}
+
+.cta-box p {
+  color: var(--gray-600);
+  margin-bottom: var(--spacing-4);
+}
+
+/* Highlight Boxes */
+.highlight-box {
+  padding: var(--spacing-4);
+  border-radius: var(--radius-lg);
+  margin: var(--spacing-4) 0;
+  border-left: 4px solid;
+}
+
+.highlight-box.info {
+  background-color: var(--light-blue);
+  border-left-color: var(--info);
+}
+
+.highlight-box.warning {
+  background-color: #fef3c7;
+  border-left-color: var(--warning);
+}
+
+.highlight-box.success {
+  background-color: #d1fae5;
+  border-left-color: var(--success);
+}
+
+.highlight-box h4 {
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  margin-bottom: var(--spacing-2);
+  color: var(--gray-900);
+}
+
+.highlight-box p {
+  color: var(--gray-700);
+  margin-bottom: 0;
+}
+
+/* Tables */
+.comparison-table,
+.pricing-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: var(--spacing-6) 0;
+  background-color: var(--white);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+}
+
+.comparison-table th,
+.comparison-table td,
+.pricing-table th,
+.pricing-table td {
+  padding: var(--spacing-3) var(--spacing-4);
+  text-align: left;
+  border-bottom: 1px solid var(--gray-200);
+}
+
+.comparison-table th,
+.pricing-table th {
+  background-color: var(--gray-100);
+  font-weight: 600;
+  color: var(--gray-900);
+}
+
+.comparison-table tr:hover,
+.pricing-table tr:hover {
+  background-color: var(--gray-50);
+}
+
+/* FAQ Styles */
+.faq-section h3 {
+  color: var(--primary-blue);
+  font-weight: 600;
+  margin-top: var(--spacing-6);
+  margin-bottom: var(--spacing-2);
+}
+
+.faq-section p {
+  margin-bottom: var(--spacing-3);
+}
+
 /* Utility Classes */
 .text-center {
   text-align: center;
